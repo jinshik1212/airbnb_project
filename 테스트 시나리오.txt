@@ -18,6 +18,7 @@
 http POST localhost:8082/rooms desc="Beautiful House"  
 2. ROOM 등록 확인
 http GET localhost:8082/rooms
+
 3. 예약 등록
 http POST localhost:8088/reservations roomId=1 status=reqReserve
 4. 예약 등록 확인
